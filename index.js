@@ -1,3 +1,5 @@
+const { findConfigUpwards } = require("@babel/core/lib/config/files");
+
 const farmAnimals = 'cow horse sheep pig chicken';
 
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
@@ -28,6 +30,13 @@ const nestedMuppet = {
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
+
+const cowSound = 'moo';
+const [cow] = cowSound.split('');
+
+
+
+
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 
